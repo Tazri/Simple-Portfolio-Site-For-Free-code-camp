@@ -1,0 +1,251 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: white
+}
+
+body{
+    background-color: black;
+    min-width: 220px;
+}
+
+/* Design navbar */
+nav{
+    background-color: crimson;
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+    position: fixed;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    color: black;
+    transition: all 0.3s linear;
+}
+
+nav ul li a:hover{
+    color: whitesmoke;
+}
+
+/* End nav desing */
+
+/* Start welcome section design */
+
+.welcome-section{
+    height: 100vh;
+    background: crimson;
+}
+
+.welcome-msg{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.welcome-section .welcome-msg h1{
+    color: black;
+    font-size: 50px;
+    font-variant: small-caps;
+}
+
+.welcome-msg span{
+    font-family: cursive;
+    color: whitesmoke;
+}
+
+.welcome-section .welcome-msg p{
+    margin-top: 10px;
+    color: #333;
+    font-size: 25px;
+}
+
+/* End design welcome-section */
+
+/* Start design projects section */
+
+.projects-section{
+    background: rgb(109, 3, 23);
+    padding-top: 20px;
+}
+
+.projects-section h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.card-link-container{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+}
+
+.card-link-container a{
+    display: block;
+    min-width: 200px;
+    width: 45%;
+    height: 350px;
+    background-color: rgb(34, 24, 26);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
+    overflow: hidden;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.card-link-container a img{
+    width: 100%;
+}
+
+.project-title{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    color: crimson;
+    transition: all 0.3s linear;
+}
+
+.card-link-container a:hover .project-title{
+    color: whitesmoke;
+}
+
+.show-all-p{
+    text-align: center;
+    padding: 30px;
+}
+
+.show-all{
+    text-decoration: none;
+}
+
+.show-all-btn{
+    color: whitesmoke;
+    width: 90px;
+    height: 40px;
+    border: 2px solid whitesmoke;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.show-all-btn:focus{
+    outline: none;
+}
+
+.show-all-btn:hover i{
+    margin-left: 10px;
+}
+
+.show-all-btn i{
+    color: whitesmoke;
+    margin-left: 5px;
+    transition: all 0.3s linear;
+}
+
+/* End design project section */
+
+/* Start design contact section */
+
+.contact-section{
+    background: crimson;
+    padding: 20px 10px;
+    min-height: 300px;
+    border-bottom: 0.5px solid whitesmoke;
+}
+
+.contact-section-header{
+    text-align: center;
+}
+
+.contact-section-header h2{
+    font-size: 50px;
+    color: black;
+}
+
+.contact-section-header p{
+    margin: 10px 0px 30px 0px;
+    font-size: 30px;
+    color: rgb(20, 20, 20);
+}
+
+.contact-links{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.contact-links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: all 0.3s linear;
+    margin-bottom: 10px;
+}
+
+.contact-links a i{
+    color: black;
+    margin-right: 5px;
+    transition: all 0.3s linear;
+}
+
+.contact-links a:hover{
+    color: whitesmoke;
+    transform: translateY(-5px);
+}
+
+.contact-links a:hover i{
+    color: whitesmoke;
+}
+
+/* Start design footer */
+footer{
+    background-color: crimson;
+}
+
+footer p{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* End design footer */
+
+/* Media query */
+
+@media screen and (max-width: 400px){
+    
+    /* Start design navbar */
+
+    nav{
+        text-align: center;
+    }
+
+    /* End design navbar */
+
+    /* Start design project section */
+
+    .card-link-container a{
+        width: 95%;
+    }
+
+    /* End design project section */
+
+}

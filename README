@@ -1,0 +1,38 @@
+This site create for free code camp 
+
+Requirmet for this site
+
+1 >>> should be was welcome section with "welcome-section" id insde
+    > should was <h1> element
+
+2 >>> should be was project section with "projects" id inside
+    > at least one element with "project-tile"
+    > at least one contain one link to projects
+
+3 >>> should be was nav element with "navbar" id inside
+    > at least one clickable link element
+
+4 >>> should be was link with "profile-link" which open github or FCC profile
+
+5 >>> should be use one media query 
+
+7 >>> navbar will show on top
+
+
+
+***** Project Link *****
+
+>>> Simple Blog > https://codepen.io/md-tazri/full/zYBBmBr 
+>>> Dummy Text Generator > https://codepen.io/md-tazri/full/MWjeGpw
+>>> Hexa Color Code Generator > https://codepen.io/md-tazri/full/JjRbZYy
+>>> Js Clock > https://codepen.io/md-tazri/full/LYRpBKr
+>>> Number Converter > https://codepen.io/md-tazri/full/YzGqBPM
+>>> Add Book List > https://codepen.io/md-tazri/full/wvzzEPQ
+
+
+***** My Profile *****
+
+>>> Code Pen Profile > https://codepen.io/md-tazri
+>>> Github Profile > https://github.com/Tazri
+>>> Facebook > https://www.facebook.com/tazri.md/
+>>> Twitter > https://twitter.com/MdTazri
